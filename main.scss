@@ -1,0 +1,52 @@
+$theme-colors: (
+  "warning":  #FFE484,
+  "light": #FFF,
+  "primary": #D2F4EA,
+  "light-pink": #FFEEDB,
+  "pink": #FFD8CC,
+  "blue": #CEE5DB,
+);
+
+.btn-style{
+    margin-right: 100px;
+    width: 130px;
+}
+
+.poster-container{
+    background-image:  url('../img/field.png');
+    height: 500px;
+    width: 70%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 150px 20px;
+}
+
+.para{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.p-con{
+    box-sizing: border-box;
+}
+
+.card-container{
+    width: 75%;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-outline{
+    width: 30%;
+    border-radius: 15px;
+    padding: 15px 15px;
+}
+
+.bb{
+    box-sizing: border-box;
+}
+
+@import '../node_modules//bootstrap/scss/bootstrap.scss';
